@@ -16,9 +16,9 @@ export default function Home() {
 
         }
       </div> */}
-      <Layout />
-      <Newsletter />
-      <Footer />
+        <Layout />
+        <Newsletter />
+        <Footer />
       </div>
     </>
   );

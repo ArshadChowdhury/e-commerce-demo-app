@@ -6,19 +6,15 @@ const Navbar = () => {
     <>
       <div>
         <div className="md:flex md:flex-row md:justify-between items-start text-center ">
-          <div className="flex justify-center mb-10 cursor-pointer">
+          <div>
+            <Link href="/" className="flex justify-center mb-10 cursor-pointer">
             <div className="bg-gradient-to-r from-purple-400 to-red-600 w-8 h-8 rounded-lg"></div>
-            <h1 className="text-2xl text-gray-600 ml-2">Logo</h1>
+            <h1 className="text-2xl text-gray-600 ml-2">Amazon</h1>
+            </Link>
           </div>
           <div>
             <Link href="/" className="text-gray-600 hover:text-purple-600 p-4">
               Home
-            </Link>
-            <Link
-              href="/shop"
-              className="text-gray-600 hover:text-purple-600 p-4"
-            >
-              Shop
             </Link>
             <Link
               href="/blog"
@@ -37,6 +33,12 @@ const Navbar = () => {
               className="text-gray-600 hover:text-purple-600 p-4"
             >
               Contact
+            </Link>
+            <Link
+              href="/login"
+              className="text-gray-600 hover:text-purple-600 p-4"
+            >
+              Login
             </Link>
             <Link
               href="/cart"
