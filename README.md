@@ -1,4 +1,4 @@
-# To run this code in local environment -
+# To run this project in local environment -
 
 First, clone the project and run the development server using:
 
