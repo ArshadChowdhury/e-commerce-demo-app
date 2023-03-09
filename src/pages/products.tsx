@@ -4,7 +4,7 @@ import Image from "next/image";
 import { productsData } from "@/components/productsData";
 
 
-const products = () => {
+const Products = () => {
 
     return (
         <>
@@ -77,4 +77,4 @@ const products = () => {
     )
 }
  
-export default products;
+export default Products;

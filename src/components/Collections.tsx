@@ -10,7 +10,7 @@ const Layout = () => {
       <div>
         <div className="flex flex-row justify-between mt-20 mb-5 items-center">
           <h2 className="text-3xl">Collection for Men</h2>
-          <Link href="" className="text-xl flex flex-row items-center">
+          <Link href="/products" className="text-xl flex flex-row items-center">
             View All
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const Layout = () => {
       <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
         {productsData.map((product: any, key: number) => {
           return (
-            <div key={key}>
+            <React.Fragment key={key}>
               <div className="shadow-lg rounded-lg bg-gray-600">
                 <Link href={`/products/${product.id}`}>
                   <Image
@@ -119,7 +119,7 @@ const Layout = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </React.Fragment>
           );
         })}
       </div>

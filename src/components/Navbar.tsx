@@ -9,7 +9,7 @@ const Navbar = () => {
           <div>
             <Link href="/" className="flex justify-center mb-10 cursor-pointer">
             <div className="bg-gradient-to-r from-purple-400 to-red-600 w-8 h-8 rounded-lg"></div>
-            <h1 className="text-2xl text-gray-600 ml-2">Amazon</h1>
+            <h1 className="text-2xl text-gray-600 ml-2">Shop</h1>
             </Link>
           </div>
           <div>
