@@ -4,6 +4,12 @@ import Image from 'next/image';
 const Newsletter = () => {
 
   const [inputValue, setInputValue] = useState("");
+
+  const handleClick = () =>{
+    if(!inputValue) return alert("Please enter an email first");
+    if(!inputValue.includes("@")) return alert ("Please enter a valid email address");
+    return alert("Thanks for subscribing to our newsletter");
+  }
   
 
   return (
@@ -15,7 +21,7 @@ const Newsletter = () => {
           <p className='mb-4 leading-relaxed text-lg'>Want to hear from us when we have new offers ? Sign up for our newsletter and we will email you every time we have some new offers.</p>
           <div>
             <input type="email" placeholder='Enter your email address' className='bg-gray-600 text-gray-200 placeholder-gray-400 p-3 w-full rounded-lg focus:outline-none text-xl' value={inputValue} onChange={e => setInputValue(e.target.value)} />
-            <button onClick={()=>alert("Thanks for subscribing to our newsletter.")} type='submit' className='bg-red-600 py-3 rounded-lg w-full my-2'>Subscribe</button>
+            <button onClick={handleClick} type='submit' className='bg-red-600 py-3 rounded-lg w-full my-2'>Subscribe</button>
           </div>
         </div>
       </div>
