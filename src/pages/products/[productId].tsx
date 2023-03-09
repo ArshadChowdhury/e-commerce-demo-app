@@ -27,7 +27,7 @@ const Product_details = () => {
                     />
                   </div>
                   <div className="font-bold text-3xl lg:mt-36 px-4">
-                    {product.name}{" "}
+                    {product.name} - {product.price}$
                     <div>
                       <div className="flex my-5">
                         <div className="bg-black h-5 w-5 rounded-full shadow-md mr-3 cursor-pointer"></div>

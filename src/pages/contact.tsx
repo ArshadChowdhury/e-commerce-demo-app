@@ -11,10 +11,10 @@ const Contact = () => {
 
   const handleSubmit = (e:any) => {
     e.preventDefault();
-    const userData = {userPhone, userName, userMessage};
+    let userData = {userPhone, userName, userMessage};
     if(!userPhone.length || !userName.length || !userMessage.length) return alert("All the inforomations are required");
-    if(userData.userPhone.length != 11)return alert("Please enter a valid Bangladeshi number to submit messages");
-    return alert("Message recieved, We'll get back to you as soon as we can")
+    if(userData.userPhone.length != 11) return alert("Please enter a valid Bangladeshi number to submit messages");
+    return alert("Message recieved, We'll get back to you as soon as we can");
   }
 
 

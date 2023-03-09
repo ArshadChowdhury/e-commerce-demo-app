@@ -20,7 +20,7 @@ const Products = () => {
         <Image src={product.source} height="500" width="500" alt="product-image" className="rounded-tl-lg rounded-tr-lg" />
         </Link>
         <div className="p-5">
-          <h3><Link href={`/products/${product.id}`} className="font-semibold text-gray-200">{product.name}</Link></h3>
+          <h3><Link href={`/products/${product.id}`} className="font-semibold text-gray-200">{product.name} - {product.price}$</Link></h3>
           <div className="flex my-2">
             <div className="bg-black h-5 w-5 rounded-full shadow-md mr-3 cursor-pointer"></div>
             <div className="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-3 cursor-pointer"></div>

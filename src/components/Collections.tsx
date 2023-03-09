@@ -46,7 +46,7 @@ const Layout = () => {
                 <div className="p-5">
                   <h3>
                     <Link href={`/products/${product.id}`} className="font-semibold text-gray-200">
-                      {product.name}
+                      {product.name} - {product.price}$
                     </Link>
                   </h3>
                   <div className="flex my-2">
