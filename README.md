@@ -9,5 +9,5 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the project on your local machine.
 
-## Or you can check the live site here - https://nextjs-ecommercebyarshad.netlify.app/
+## Or you can check the live site here - <br> https://nextjs-ecommercebyarshad.netlify.app/
 
