@@ -1,6 +1,6 @@
 # To run this project in local environment -
 
-First, clone the project and run the development server using:
+First, clone the project and run the development server using :
 
 ```
 npm run dev
